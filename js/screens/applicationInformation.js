@@ -55,8 +55,6 @@ class ApplicationInformationScreen extends BaseComponent {
             return
         }
 
-        console.log("@@@", this.state.environment)
-
         const elements = []
         for (const key of Object.keys(this.state.environment)) {
             const value = this.state.environment[key]

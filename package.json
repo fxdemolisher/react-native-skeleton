@@ -9,6 +9,7 @@
     "url": "https://github.com/fxdemolisher/react-native-skeleton"
   },
   "scripts": {
+    "postinstall": "sed -i 's/#import <RCTAnimation\\/RCTValueAnimatedNode.h>/#import \"RCTValueAnimatedNode.h\"/' ./node_modules/react-native/Libraries/NativeAnimation/RCTNativeAnimatedNodesManager.h",
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {

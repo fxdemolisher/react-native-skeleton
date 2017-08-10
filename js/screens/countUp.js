@@ -51,6 +51,7 @@ class CountUpScreen extends BaseComponent {
                 </View>
 
                 <Button onPress={this.countUp}
+                        style={{marginBottom: Styles.Size.Small}}
                         text="Count Up"/>
 
                 <Button onPress={this.gotoBack}

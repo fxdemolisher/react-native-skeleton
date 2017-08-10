@@ -68,12 +68,15 @@ class HomeScreen extends BaseComponent {
                 </View>
 
                 <Button onPress={this.gotoCountUp}
+                        style={{marginBottom: Styles.Size.Small}}
                         text="Count Up Screen"/>
 
                 <Button onPress={this.gotoApplicationInformation}
+                        style={{marginBottom: Styles.Size.Small}}
                         text="Application Information"/>
 
                 <Button onPress={restartApplication}
+                        style={{marginBottom: Styles.Size.Small}}
                         text="Restart App"/>
 
                 <Button onPress={this.fullReset}

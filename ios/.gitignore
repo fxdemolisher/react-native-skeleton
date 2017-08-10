@@ -1,0 +1,4 @@
+Pods/
+xcuserdata/
+*.xcworkspace/
+BuildEnvironment-Info.plist
