@@ -70,4 +70,8 @@ When you work for companies most of your code belongs to them. Some of us get ti
 1. Stress testing via volunteers
 
 ## NOTE:
-Please submit feature requests, bugs, comments, etc via github's [issue tracker](https://github.com/fxdemolisher/react-native-skeleton/issues) 
+Please submit feature requests, bugs, comments, etc via github's [issue tracker](https://github.com/fxdemolisher/react-native-skeleton/issues)
+
+## Does it work?
+
+![Demo GIF](https://github.com/fxdemolisher/react-native-skeleton/blob/master/demo.gif)
